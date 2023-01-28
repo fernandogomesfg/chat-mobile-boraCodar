@@ -17,3 +17,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#container {
+    width: 375px;
+    height: 682px;
+    margin: 50px auto;
+    padding: 24px 32px;
+    border: 1px solid red;
+}
