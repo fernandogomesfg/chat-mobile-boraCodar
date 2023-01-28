@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 :root {
     --bg-color: #1A1924;
     --remetente-chat-color: #633BBC;
@@ -22,5 +23,67 @@ body {
     height: 682px;
     margin: 50px auto;
     padding: 24px 32px;
-    border: 1px solid red;
+}
+
+/* seccao do perfil */
+#profile {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    width: 311px;
+    height: 88px;
+    gap: 16px;
+}
+
+/* imagem do perfil */
+#profile .picture img {
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.picture,
+.name,
+.close {
+    display: inline;
+    width: 29%;
+    text-align: center;
+}
+
+.name-user {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    margin-top: 13px;
+    margin-left: -80px;
+
+}
+
+.online-eclipse {
+    margin-left: -102px;
+}
+
+.picture {
+    text-align: left;
+}
+
+.close {
+    text-align: right;
+    margin-top: 30px;
+
+    cursor: pointer;
+}
+
+.online {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    margin-top: 4px;
+    color: #00B37E;
 }
