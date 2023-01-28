@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --bg-color: #1A1924;
+    --remetente-chat-color: #633BBC;
+    --emissor-chat-color: #07847E;
+    --input-message-color: #282843;
+    --text-color: #E1E1E6;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
