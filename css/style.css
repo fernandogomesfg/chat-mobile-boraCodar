@@ -172,3 +172,36 @@ body {
     padding: 0px;
     margin-bottom: 30px;
 }
+
+/* input de mensagem */
+input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 24px;
+
+    width: 311px;
+    height: 52px;
+
+    background: var(--input-message-color);
+    border-radius: 999px;
+    border: none;
+}
+
+/* cor do texto do placeholder */
+input::placeholder {
+    color: var(--text-color);
+}
+
+/* div do input de mensagem */
+#send {
+    position: relative;
+}
+
+/* icone de enviar mensage */
+#send img {
+    position: absolute;
+    top: 28%;
+    right: 24px;
+    z-index: 1;
+}
