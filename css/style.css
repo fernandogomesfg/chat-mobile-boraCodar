@@ -186,6 +186,7 @@ input {
     background: var(--input-message-color);
     border-radius: 999px;
     border: none;
+    color: var(--text-color);
 }
 
 /* cor do texto do placeholder */
