@@ -205,4 +205,5 @@ input::placeholder {
     top: 28%;
     right: 24px;
     z-index: 1;
+    cursor: pointer;
 }
