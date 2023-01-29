@@ -89,6 +89,17 @@ body {
     color: #00B37E;
 }
 
+/* Data da conversa */
+#data {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.8;
+    color: var(--text-color);
+    text-align: center;
+}
+
 #message {
     display: flex;
     flex-flow: row wrap;
@@ -151,7 +162,7 @@ body {
 #chat-rocketseat-2 {
     width: 311px;
     height: 108px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
 }
 
 #chat-you-2 {
