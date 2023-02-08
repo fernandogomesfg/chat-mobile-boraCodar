@@ -14,8 +14,11 @@
   <a href="#deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+<div align="center">
+
 ![chat](https://user-images.githubusercontent.com/59961857/215354588-d850c740-2514-4a97-a3b3-a338cfa53e12.jpg)
 
+</div>
 <br>
 
 
